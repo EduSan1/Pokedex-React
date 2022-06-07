@@ -1,0 +1,26 @@
+.cards-container {
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 4%;
+
+    overflow-y: scroll;
+}
+
+.cards-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.cards-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: #b2c5ff;
+    border-radius: 15px;
+}

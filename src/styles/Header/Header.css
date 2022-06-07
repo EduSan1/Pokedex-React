@@ -1,0 +1,58 @@
+.search-container {
+    width: 60%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.search-container > input {
+    width: 40%;
+    height: 40%;
+    font-size: clamp(4px,1vw,12px);
+    background-color: #b2c5ff;
+    border-radius: 10px;
+    border: 1px solid #344578;
+    cursor: pointer;
+    transition: .4s;
+}
+.search-container > select {
+    width: 20%;
+    height: 40%;
+    font-size: clamp(4px,1vw,12px);
+    background-color: #b2c5ff;
+    border-radius: 10px;
+    border: 1px solid #344578;
+    cursor: pointer;
+    transition: .4s;
+ 
+}
+
+.search-container >button:hover{
+    background-color: #4c66b5;
+
+}
+.search-container  > button {
+    color: aliceblue;
+    width: 20%;
+    height: 40%;
+    font-size: clamp(4px,1vw,12px);
+    background-color: #344578;
+    border-radius: 10px;
+    border: 1px solid #b2c5ff;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.logo-container {
+    width: 10%;
+    height: 80%;
+
+}
+
+.logo-container > img{
+    width: 100%;
+    height: 100%;
+
+}
